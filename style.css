@@ -1,0 +1,497 @@
+body {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.topMenu {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    color: lightgray;
+    margin: 0 auto;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.topLink {
+
+    font-size: xx-small;
+    color: lightgray;
+    margin: 0 auto;
+    text-decoration: none;
+
+
+
+}
+
+.headerContainer {
+
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+
+.logoPortada{
+    height: 15vh;
+    margin-bottom: 20px;
+}
+
+#date {
+    width: 25%;
+
+}
+
+#logo {
+    text-align: center;
+    flex-grow: 5;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+#login {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 25%;
+    margin-left: 50px;
+}
+
+
+.newsDisplay{
+    display: flex;
+    flex-direction: row;
+    margin:50 auto;
+    width: 90%;
+
+    margin-top: 20px;
+    padding:5px;
+
+}
+
+
+
+.lateralBanner{
+   
+    height: auto;
+    margin: 10px;
+    padding:10px;
+    background-image: url("imagenes/17750473712526396584.jpeg"); 
+    
+
+}
+
+.mainContainer {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  
+    padding-bottom: 5px;
+    
+
+
+
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.publiContainerCenter {
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+
+.section {
+    
+    margin-bottom: 5px;
+    margin: 5px;
+   
+}
+
+#whiteSpace {
+    height: 50px;
+    width: 100vw;
+}
+
+#bannerCantabria {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.guerras {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 20px;
+
+}
+
+#directo {
+    color: red;
+    margin: 5px;
+
+}
+
+#warZone {
+    margin: 5px;
+
+}
+
+
+.news1 {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin: 0 auto;
+    
+   
+   
+
+}
+
+ #fotoIsrael {
+    margin: 25px;
+    padding: 25px;
+    width: 200px;
+    height: 100px;
+    align-content: center;
+}
+#randomPhoto{
+margin: 25px;
+padding: 25px;
+}
+
+.keyWordNews {
+    color: #2E6D9D;
+    font-size: larger;
+}
+
+.title1 {
+    color: black;
+    margin-top: 5px;
+}
+
+.leftNews1 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 20px;
+    border-top: 1.5px solid black;
+
+
+}
+
+#pedroI {
+
+    width: 270px;
+    height: 200px;
+    margin-top:30px;
+    margin: auto;
+    padding:25px;
+
+}
+
+#centralAndRightNews {
+
+    display: flex;
+    border-top: solid 1.5px;
+    color: black;
+    width: auto;
+    /* padding: 20px; */
+
+}
+
+.centralNews1 {
+    flex-grow: 3;
+    border-left: 1px solid black;
+    padding: 20px;
+
+
+
+}
+
+.rightNews1 {
+    
+    margin: 10px;
+    padding: 20px;
+    flex-grow: 2;
+    border-left: 1px solid black;
+}
+
+.news2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-top: 10px;
+    margin-top: 0px;
+    border-top: 1.5px solid black;
+    width: 70vw;
+    border-bottom: 1.5px solid black;
+
+}
+
+.news2FR {
+    border-top: 1.5px solid black;
+
+}
+
+
+.news2SR {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: auto;
+    margin: 30px;
+  
+}
+
+.author {
+    font-size: x-small;
+    margin-top: 5px;
+}
+
+
+.interview {
+    width: 25%;
+    border: 10px;
+    padding: 10px
+}
+
+#centralPicture {
+    height: 250px;
+    width: 400px;
+    border: 10px;
+    padding: 10px;
+    border-right: 1px solid black;
+    align-items: center;
+
+}
+
+#guler {
+    border-left: 1px solid black;
+}
+
+.photoGuler {
+    height: 150px;
+    width: 250px;
+    border: 10px;
+    padding: 10px;
+}
+
+#textGulerNews {
+
+    border: 10px;
+    padding: 10px;
+}
+
+.news3 {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 10px;
+    padding:20px;
+
+
+}
+
+
+
+#greyNotice {
+    color: grey;
+    font-size: large;
+
+}
+
+.mainPhoto {
+    width: auto;
+    height: auto;
+    padding-right: 10px;
+    align-content: center;
+    border-right: 1px solid black;
+}
+
+#PSOE {
+    width: 300px;
+    height: 200px;
+}
+
+#opinionArticles {
+    margin: 20px;
+    align-content: center;
+    align-items: center;
+   
+
+
+}
+
+#opinionArticle1 {
+    margin: 0 auto;
+}
+.journalist{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    align-self: center;
+}
+#puchi{
+    margin: 10 auto;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
+#carAdv{
+    width:10vw ;
+    margin-top: 10px ;
+    
+}
+
+
+.news4{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    width: 70vw;
+    justify-content: space-between;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 10px;
+    padding:20px;
+
+}
+
+.titleSection{
+    margin-bottom: 18px;
+}
+
+#news4Article2{
+    margin: 25px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid black;
+    
+
+}
+
+
+#news4Article3{
+    margin: 20px;
+    margin-top: 15px;
+    
+    }
+
+#news4Photo1{
+    margin: 20px;
+    margin-top: 35px;
+
+}
+
+
+#letizia{
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+}
+
+.news5{
+    width: 70vw;
+    display:grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 0.5fr 2.5fr 2fr;
+    margin: 0 auto;
+}
+
+
+#mexicano{
+
+width: 550px;
+height: 350px;    
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+
+}
+
+#articleTitle{
+    font-size: xx-large;
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+
+}
+
+#article1News5{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+
+}
+
+#articleContainerNews5{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+}
+/* #dogBannerContainer{
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end:4 ;
+} */
+
+/* #dogPhoto{
+    width: 150px ;
+    height:400px;
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end:4 ;
+} */
